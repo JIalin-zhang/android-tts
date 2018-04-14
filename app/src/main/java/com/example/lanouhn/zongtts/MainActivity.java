@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         int maxVolue = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_SYSTEM);
         int currentVolue = mAudioManager.getStreamVolume(AudioManager.STREAM_SYSTEM);
 
-        Log.e("zdj","系统最大音量："+maxVolue);
+        Log.e("zdj","系统最大音量 ："+maxVolue);
         Log.e("zdj","系统此时音量："+currentVolue);
     }
 
