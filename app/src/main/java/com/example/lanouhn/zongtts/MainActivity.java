@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                     case TextToSpeech.Engine.CHECK_VOICE_DATA_BAD_DATA:// 需要的语音数据已损坏
                     case TextToSpeech.Engine.CHECK_VOICE_DATA_MISSING_DATA:// 缺少需要语言的语音数据
                     case TextToSpeech.Engine.CHECK_VOICE_DATA_MISSING_VOLUME:// 缺少需要语言的发音数据
-                        toast.setText("语音数据不可用");
+                        toast.setText("语音数据不可用,请重新更换语音数据");
                         break;
                     case TextToSpeech.Engine.CHECK_VOICE_DATA_FAIL:// 检查失败
                     default:
